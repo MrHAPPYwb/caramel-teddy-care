@@ -1,0 +1,3 @@
+.audio-source/
+.audio-generation*.log
+.server*.log

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "currency": "star-coin",
+  "items": [
+    { "id": "star-pancake", "name": "星星松饼", "price": 10, "target": "fridge" },
+    { "id": "strawberry-milk", "name": "草莓牛奶", "price": 20, "target": "fridge" },
+    { "id": "berry-tart", "name": "莓莓挞", "price": 20, "target": "fridge" },
+    { "id": "basic-collar", "name": "星愿项圈", "price": 0, "target": "wardrobe" },
+    { "id": "pink-princess-dress", "name": "公主裙", "price": 60, "target": "wardrobe" },
+    { "id": "caramel-shampoo", "name": "焦糖香波", "price": 20, "target": "cabinet" },
+    { "id": "star-bubble-bath", "name": "星星泡泡", "price": 30, "target": "cabinet" },
+    { "id": "star-ball", "name": "星星球", "price": 30, "target": "toy-shelf" },
+    { "id": "moon-pillow", "name": "月亮抱枕", "price": 30, "target": "toy-shelf" },
+    { "id": "taurus-cape", "name": "金牛守护", "price": 120, "target": "wardrobe", "lockedAtHearts": 180 }
+  ]
+}

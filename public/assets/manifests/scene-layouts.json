@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "coordinateSpace": "normalized-percent",
+  "home": {
+    "teddy": { "x": 50, "bottom": 156, "anchor": [0.5, 1] },
+    "actions": ["checkin", "tasks", "mail"]
+  },
+  "shop": {
+    "background": "assets/scenes/shop-world.svg",
+    "hitAreaRule": "visual-element-bounds",
+    "counter": { "x": 50, "y": 63 }
+  },
+  "collection": {
+    "background": "assets/scenes/collection-world.svg",
+    "furniture": {
+      "fridge": { "x": 2, "y": 38, "width": 22 },
+      "wardrobe": { "x": 20, "y": 31, "width": 29 },
+      "toy-shelf": { "x": 66, "y": 37, "width": 22 },
+      "cabinet": { "x": 84, "y": 38, "width": 19 }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "baseCanvas": { "width": 390, "height": 844 },
+  "groups": {
+    "boot": [
+      "assets/scenes/home-bg.png",
+      "assets/teddy/teddy-default.png",
+      "assets/teddy/teddy-wink.png",
+      "assets/fx/star-sparkle.svg"
+    ],
+    "shop": [
+      "assets/scenes/shop-world.svg",
+      "assets/teddy/teddy-wink.png",
+      "assets/props/star-pancake.svg",
+      "assets/props/strawberry-milk.svg",
+      "assets/props/berry-tart.svg",
+      "assets/props/basic-collar.svg",
+      "assets/props/pink-princess-dress.svg",
+      "assets/props/caramel-shampoo.svg",
+      "assets/props/star-bubble-bath.svg",
+      "assets/props/star-ball.svg",
+      "assets/props/moon-pillow.svg",
+      "assets/props/taurus-cape.svg"
+    ],
+    "collection": [
+      "assets/scenes/collection-world.svg",
+      "assets/props/furniture-fridge.svg",
+      "assets/props/furniture-wardrobe.svg",
+      "assets/props/furniture-toy-shelf.svg",
+      "assets/props/furniture-cabinet.svg",
+      "assets/teddy/teddy-princess.png",
+      "assets/teddy/teddy-guardian.png"
+    ]
+  },
+  "teddy": {
+    "anchor": [0.5, 1],
+    "poses": ["default", "wink", "happy", "sleep", "princess", "guardian"]
+  }
+}

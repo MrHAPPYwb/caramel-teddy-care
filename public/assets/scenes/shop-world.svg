@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#fff2d9"/><stop offset="1" stop-color="#f6cda8"/></linearGradient>
+    <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#d98a50"/><stop offset=".5" stop-color="#a95e37"/><stop offset="1" stop-color="#7b3f27"/></linearGradient>
+    <linearGradient id="lightWood" x2="0" y2="1"><stop stop-color="#f2bd78"/><stop offset="1" stop-color="#c87842"/></linearGradient>
+    <linearGradient id="awning" x2="0" y2="1"><stop stop-color="#ffd6e6"/><stop offset="1" stop-color="#f38fb7"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#eeb97f"/><stop offset="1" stop-color="#b96c43"/></linearGradient>
+    <radialGradient id="window"><stop stop-color="#fff8cb"/><stop offset=".5" stop-color="#cfeef7"/><stop offset="1" stop-color="#9fd5e8"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#713d29" flood-opacity=".28"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
+    <pattern id="planks" width="78" height="22" patternUnits="userSpaceOnUse"><rect width="78" height="22" fill="none"/><path d="M0 21.5h78M77.5 0v22" stroke="#8d4e34" stroke-opacity=".26"/></pattern>
+  </defs>
+  <rect width="390" height="490" fill="url(#wall)"/>
+  <path d="M0 0h390v26H0z" fill="#b9673d"/><path d="M0 18h390v14H0z" fill="#f0b76e" opacity=".75"/>
+  <circle cx="58" cy="128" r="78" fill="#fff8c4" opacity=".25" filter="url(#glow)"/>
+  <g filter="url(#shadow)">
+    <path d="M132 42h126v144H132z" fill="#8e5136"/>
+    <path d="M143 52h104v124H143z" fill="url(#window)"/>
+    <path d="M143 101h104M195 52v124" stroke="#fff9df" stroke-width="6" opacity=".9"/>
+    <path d="M137 45c8-24 26-33 58-33s50 9 58 33" fill="#bc7047"/>
+    <path d="M147 44c7-16 22-23 48-23s41 7 48 23" fill="#ffe7b4"/>
+  </g>
+  <path d="M0 82c42-11 72-11 108 0v118H0z" fill="#f6bfd5" opacity=".7"/>
+  <path d="M390 82c-42-11-72-11-108 0v118h108z" fill="#f6bfd5" opacity=".7"/>
+  <path d="M8 69c32 15 57 14 92 0" stroke="#fff3d7" stroke-width="6" fill="none"/>
+  <path d="M382 69c-32 15-57 14-92 0" stroke="#fff3d7" stroke-width="6" fill="none"/>
+  <g fill="#ffd961" stroke="#e5a53e" stroke-width="2">
+    <path d="M36 66l5 9 10 2-7 7 2 10-10-5-9 5 2-10-7-7 10-2Z"/>
+    <path d="M354 66l5 9 10 2-7 7 2 10-10-5-9 5 2-10-7-7 10-2Z"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M16 195h176v53H16z" fill="url(#lightWood)" stroke="#8d4b2d" stroke-width="5"/>
+    <path d="M25 245h158v150H25z" fill="#b86b42" stroke="#8b4a2d" stroke-width="6"/>
+    <path d="M34 260h140v52H34zM34 324h140v52H34z" fill="#f5d39c" stroke="#9b5934" stroke-width="4"/>
+    <path d="M198 195h176v53H198z" fill="url(#lightWood)" stroke="#8d4b2d" stroke-width="5"/>
+    <path d="M207 245h158v150H207z" fill="#b86b42" stroke="#8b4a2d" stroke-width="6"/>
+    <path d="M216 260h140v52H216zM216 324h140v52H216z" fill="#f5d39c" stroke="#9b5934" stroke-width="4"/>
+  </g>
+  <path d="M12 184h366l-15 37H27z" fill="url(#awning)" stroke="#b85c86" stroke-width="4"/>
+  <path d="M30 184v35M72 184v35M114 184v35M156 184v35M198 184v35M240 184v35M282 184v35M324 184v35M362 184v35" stroke="#fff5e8" stroke-width="15" opacity=".8"/>
+  <rect y="390" width="390" height="454" fill="url(#floor)"/>
+  <rect y="390" width="390" height="454" fill="url(#planks)"/>
+  <ellipse cx="195" cy="612" rx="146" ry="58" fill="#8b4a38" opacity=".18"/>
+  <ellipse cx="195" cy="600" rx="139" ry="53" fill="#f7c8d9" stroke="#fff0dd" stroke-width="10"/>
+  <path d="m195 563 11 22 25 4-18 17 4 25-22-12-22 12 4-25-18-17 25-4Z" fill="#ffe486" stroke="#e3a847" stroke-width="3"/>
+  <g filter="url(#shadow)">
+    <path d="M104 520h182l21 144H83z" fill="url(#wood)" stroke="#713b26" stroke-width="6"/>
+    <path d="M91 516h208v32H91z" fill="#f2b96c" stroke="#7e4128" stroke-width="6"/>
+    <ellipse cx="195" cy="529" rx="50" ry="12" fill="#fff0c9" stroke="#bf7541" stroke-width="4"/>
+    <circle cx="275" cy="579" r="7" fill="#ffd760" stroke="#8e4c2e" stroke-width="3"/>
+  </g>
+  <g fill="#fff2b4" opacity=".8">
+    <circle cx="42" cy="435" r="5"/><circle cx="352" cy="448" r="4"/><circle cx="72" cy="548" r="3"/><circle cx="330" cy="570" r="5"/>
+  </g>
+</svg>
